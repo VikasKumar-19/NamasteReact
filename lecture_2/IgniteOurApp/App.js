@@ -28,8 +28,13 @@ const parent = React.createElement(
   ])
 );
 
+//JSX is HTML/XML-Like Syntax
+//JSX is transpiled before it reaches to JS engine so that the browser can understand. because jsx is not a part of normal js.
+//Transpilation is done by parcel by taking help of babel library.
+const jsxHeading = <h1>This is the first heading using JSX</h1>;
+
 //creating a root so that it can render something inside it.
 //it is a part of react dom library.
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent); // it will take react element and convert in actual html tag and put it inside (root) dom.
+root.render(jsxHeading); // it will take react element and convert in actual html tag and put it inside (root) dom.
 //root.render() method will replace everything in the root tag.

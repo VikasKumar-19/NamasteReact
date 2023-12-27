@@ -4,7 +4,9 @@
   "description": "Learn to create a production ready app by manually installing and using the required things ",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest", 
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
